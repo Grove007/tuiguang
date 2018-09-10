@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!-- saved from url=(0182)http://www.mtbjyhj.cn/hyq/js/html/guowei01.html?n=http%3A//www.mtztjs.com/guowei1/tuiguangyemian/%3Fgzid%3DA-220X510&f=http%3A//www.mtbjyhj.cn/hyq/notorder.asp%3Fnot3cname%3Dguowei01 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+
+<title>国威酱酒01 订购中心</title>
+<meta name="Author" content="goingta,QQ860180810,黑眼圈订单系统 样式not01"> 
+<meta name="Copyright" content="zzfhw.taobao.com,yun.not3.com,All Rights Reserved">
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport"> 
+<meta content="320" name="MobileOptimized">
+<script type="text/javascript" src="./jquery-3.2.1.min.js" charset="gb2312"></script>
+<script type="text/javascript" src="./notorder.js" charset="gb2312"></script>
+<script type="text/javascript" src="./Validform_v5.3.1.js" charset="gb2312"></script>
+<script type="text/javascript" src="./jquery.cityselect.js" charset="gb2312"></script>
+
+<link href="./not3order.css" rel="stylesheet" type="text/css">
+<style type="text/css"> 
+    #order{background:#ffffff;}
+    .warp,.title,.rxian{border-color:#FFD9D9;}
+    .subbox input,#not3chaxun .submit,#Validform_msg button,.text3box .getsms,#Validform_msg .Validform_title{background:#FF6666;}
+    .neworder .chanpin .now, .neworder .chanpin .now:hover{background:#FF6666 url(http://www.mtbjyhj.cn/hyq/images/s.jpg) no-repeat right top;}
+    .neworder .chanpin label:hover,#Validform_msg{border-color:#FF6666;}
+</style>
+
+<script>
+document.title="国威酱酒01 订购中心";
+//支付宝折扣，限购数量，当前网址
+var not3peizhi=new Array(0,0,"http://www.mtbjyhj.cn/hyq/","","False","new");
+</script>
+
+</head>
+<body>
+<div id="order" class="neworder">
+<div class="warp">
+    <div class="orderl">
+        <div class="forml" id="not3forml">
+            <div class="rxian">
+                <form id="not3orderform" name="not3orderform" action="http://www.mtbjyhj.cn/hyq/notorder.asp?not3cname=guowei01" method="post" target="_top">
+                <input type="hidden" name="not3orderid" id="not3orderid" value="no.201891011443279">
+                <div class="title"><img src="./tita.gif"></div>
+                <div class="bdbox">
+                    <label class="bdxx"><em>*</em>产品</label>
+                    <div class="dxbox red chanpin not3chanpin">
+            
+                <label class="now"><input type="radio" name="product" id="a0" value="国威 53°酱香:（1箱4瓶）买1箱送1箱-336元" alt="336######/hyq/js/upfile/201888151331378.jpg" checked="" onclick="not3jiage();"><div><img src="./2018518151334100.jpg"></div>国威 53°酱香:（1箱4瓶）买1箱送1箱&nbsp;&nbsp;336元</label>
+                <label><input type="radio" name="product" id="a1" value="国威 53°酱香:（1箱4瓶）买3箱送3箱-968元" alt="968######/hyq/js/upfile/201888151340972.jpg" onclick="not3jiage();"><div><img src="./2018518151346952.jpg"></div>国威 53°酱香:（1箱4瓶）买3箱送3箱&nbsp;&nbsp;968元</label>
+                <label><input type="radio" name="product" id="a2" value="国威 53°酱香:（1箱4瓶）买5箱送6箱-1680元" alt="1680######/hyq/js/upfile/201888151349794.jpg" onclick="not3jiage();"><div><img src="./2018518151358739.jpg"></div>国威 53°酱香:（1箱4瓶）买5箱送6箱&nbsp;&nbsp;1680元</label>
+            </div>
+        </div>
+        <input type="hidden" value="国威 53°酱香:（1箱4瓶）买1箱送1箱336元" style="width:600px;" name="not3chanpin" id="not3chanpin">
+        <script>var not3guanlian=new Array('','','','');</script>
+        <div id="not3guanlian"></div>
+
+        <div class="bdbox">
+            <label class="bdxx"><em>*</em>数量</label>
+            <a class="jian" ="javascript:;"="" onclick="minnumber()">-</a>
+            <input type="text" class="shuliang" size="3" value="1" name="mun" id="mun" onblur="inputnumber();" readonly="" onchange="not3jiage()">
+            <a class="jia" href="javascript:;" onclick="addnumber()">+</a>  
+        </div>
+                <div class="bdbox">
+                    <label class="bdxx"><em>*</em>姓名</label>
+                    <div class="textbox">
+                        <input type="text" name="name" datatype="s2-4" errormsg="姓名至少2个字符,最多4个字符！" nullmsg="请输入你的姓名！">
+                    </div>
+                </div>
+                <div class="bdbox">
+                    <label class="bdxx"><em>*</em>手机</label>
+                    <div class="textbox">
+                        <input type="text" name="mob" datatype="m" errormsg="请输入正确的手机号码！" nullmsg="请输入您的手机号码！" class="Validform_error">
+                    </div>
+                </div>
+
+                <div class="bdbox">
+                    <label class="bdxx"><em>*</em>地区</label>
+                    <div class="xlbox" id="not3ssx">
+                        <select name="province" class="prov dqxl Validform_error" datatype="*" nullmsg="请选择地区！"><option value="">请选择</option><option value="北京市">北京市</option><option value="天津市">天津市</option><option value="河北省">河北省</option><option value="山西省">山西省</option><option value="内蒙古自治区">内蒙古自治区</option><option value="辽宁省">辽宁省</option><option value="吉林省">吉林省</option><option value="黑龙江省">黑龙江省</option><option value="上海市">上海市</option><option value="江苏省">江苏省</option><option value="浙江省">浙江省</option><option value="安徽省">安徽省</option><option value="福建省">福建省</option><option value="江西省">江西省</option><option value="山东省">山东省</option><option value="河南省">河南省</option><option value="湖北省">湖北省</option><option value="湖南省">湖南省</option><option value="广东省">广东省</option><option value="广西壮族自治区">广西壮族自治区</option><option value="海南省">海南省</option><option value="重庆市">重庆市</option><option value="四川省">四川省</option><option value="贵州省">贵州省</option><option value="云南省">云南省</option><option value="西藏自治区">西藏自治区</option><option value="陕西省">陕西省</option><option value="甘肃省">甘肃省</option><option value="青海省">青海省</option><option value="宁夏回族自治区">宁夏回族自治区</option><option value="新疆维吾尔自治区">新疆维吾尔自治区</option><option value="香港特别行政区">香港特别行政区</option><option value="澳门特别行政区">澳门特别行政区</option><option value="台湾省">台湾省</option><option value="国外">国外</option></select><select name="city" class="city dqxl" disabled="disabled" datatype="*" nullmsg="请选择地区！"></select><select name="area" class="dist dqxl" disabled="disabled" datatype="*" nullmsg="请选择地区！"></select>
+                    </div>
+                </div>
+
+                <div class="bdbox">
+                    <label class="bdxx"><em>*</em>地址</label>
+                    <div class="textbox">
+                        <input type="text" name="address" datatype="*" errormsg="请输入正确的收货地址！" nullmsg="请输入您的收货地址！">
+                    </div>
+                </div>
+        <div class="bdbox">
+            <label class="bdxx"><em>*</em>金额</label>
+            <div class="text3box">
+                <input type="hidden" name="zfbewm" value="">
+                <input type="hidden" name="wxewm" value="/hyq/js/upfile/201888151331378.jpg">
+                <input type="hidden" name="zfbprice" value="336">
+                <input name="price" value="336" readonly=""> 元 <span id="zfbyh"></span>
+            </div>
+        </div>
+        <div class="bdbox">
+            <label class="bdxx"><em>*</em>付款</label>
+            <div class="dxbox">
+             <label for="b1"><input type="radio" checked="checked" name="pay" id="b1" value="cod" onclick="return changeItem(0);"><img src="./hdfk.png"></label>
+                 
+                <input type="radio" name="pay" id="b2" value="weixinsm" onclick="return changeItem(1);"><label for="b2"><img src="./wxpay.png"> </label>
+             
+       
+            </div>
+        </div>
+
+
+        <div class="bdbox">
+            <label class="bdxx"><em>*</em>提示</label>
+            <div class="textbox">
+                <font color="red">添加微信:【MTHJ18】了解更多国威酱酒更多系列产品和优惠</font>
+            </div>
+        </div>
+ 
+                <div class="bdbox">
+                    <label class="bdxx">留言</label>
+                    <div class="text2box">
+                        <textarea name="guest" placeholder="请您写下您珍贵的需求哟"></textarea>
+                    </div>
+                </div>
+         
+         <script>getfrom();</script><input type="hidden" name="fromurl" value="http://www.mtbjyhj.cn/hyq/notorder.asp?not3cname=guowei01"><input type="hidden" name="nowurl" value="http://www.mtztjs.com/guowei1/tuiguangyemian/?gzid=A-220X510"><input type="hidden" name="click_id" value=""><input type="hidden" name="not3time" value="2018-09-10 11:1:49"><input type="hidden" name="keyword" value=""><input type="hidden" name="gzid" value="A-220X510">
+         <input type="hidden" name="not3os" id="not3os">
+                <div class="subbox">
+                    <input type="submit" name="submit" value="立即提交订单">
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+<script>
+var not3chanpin=new Array("国威 53°酱香:（1箱4瓶）买1箱送1箱","国威 53°酱香:（1箱4瓶）买3箱送3箱","国威 53°酱香:（1箱4瓶）买5箱送6箱");
+</script>
+    
+    <div class="orderr">
+        
+        <div id="not3chaxun">
+	    <p><img src="./titc.gif"></p>
+	    <p class="m10">请在下方输入手机号码，然后点查询</p>
+		<p class="m10"><input type="text" id="notchecktel" class="tel" style="vertical-align:middle;"> <input type="button" class="submit" value="查询" onclick="return checktel()"></p>
+		<span id="notcheckresult"><div class="ts">温馨提示：你可以在收货前随时查询自己的订单，掌握订单物流的最新动态，方便自己的收货时间安排。</div></span>
+		<div style="display:none"><iframe width="0" height="0" id="notcheckif" name="notcheckif" src="./saved_resource(2).html"></iframe></div>
+        </div>
+    </div>
+    
+    <div style="clear:both;"></div>
+</div>
+</div>
+<script type="text/javascript" src="./not3.js"></script><div id="Validform_msg"><div class="Validform_title">系统提示</div><div class="Validform_info">请选择地区！</div><div class="Validform_close"><button>我知道了</button></div><div class="iframe"><iframe frameborder="0" scrolling="no" height="100%" width="100%" src="./saved_resource(3).html"></iframe></div></div>
+
+
+</body></html>

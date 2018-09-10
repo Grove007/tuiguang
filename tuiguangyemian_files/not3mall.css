@@ -1,0 +1,32 @@
+
+
+nav {margin:0 auto; padding:0; width:100%;position:fixed; left:0; bottom:0;
+-webkit-animation:fadeInUpBig 1s 0.2s ease both;-moz-animation:fadeInUpBig 1s 0.2s ease both;z-index:999; }
+nav ul {margin:0 auto;padding:0 0; height:45px; width:100%; background:#e30; overflow:hidden;}
+nav ul li { width:30%; float:left; text-align:center; list-style: none;}
+nav ul li a { display:block; line-height:45px;width:100%;color:#fff;font-size:0.8em; text-decoration: none; }
+nav ul li a strong { display:block; position: relative;top:10px;left:0; font-weight:normal;}
+
+nav ul#not3footdh {position:relative;}
+nav ul#not3footdh li a {border-right:1px dotted #f66;}
+nav ul#not3footdh li:last-child a {border-right:0px;}
+nav ul#not3footdh li a strong{ display:inline; position: inherit;font-weight:normal;line-height:45px;font-size:14px;}
+@media only screen and (min-width: 360px) {
+nav ul#not3footdh li a strong{padding-left:32px;background:url("url.png") left center no-repeat; background-size: 28px 28px;}
+nav ul#not3footdh li a[href^="/"] strong{background:url("home.png") left center no-repeat; background-size: 28px 28px;}
+nav ul#not3footdh li a[href^="tel:"] strong{background:url("call.png") left center no-repeat; background-size: 28px 28px;}
+nav ul#not3footdh li a[href^="sms:"] strong{background:url("sms.png") left center no-repeat; background-size: 28px 28px;}
+nav ul#not3footdh li a[href^="#buy"] strong{background:url("buy.png") left center no-repeat; background-size: 28px 28px;}
+nav ul#not3footdh li a[onclick^="not3getweixin()"] strong{background:url("weixin.png") left center no-repeat; background-size: 20px 20px;}
+nav ul#not3footdh li a[onclick^="not3getqq()"] strong{background:url("qq.png") left center no-repeat; background-size: 18px 18px;}
+}
+nav ul#not3footdh li span {color:#333}
+
+
+
+nav a.thisclass, #home.thisclass,#about.thisclass, #shop.thisclass, #case.thisclass, #call.thisclass, #navi.thisclass, #sms.thisclass, #contact.thisclass, #write.thisclass{ background-color:#333;}
+.btn {width:100%;height:auto;clear:both;padding:5px 0;overflow:hidden;}
+
+.v{
+	background-color: #9E773E;
+}
